@@ -14,7 +14,7 @@ To create this simulator, I referenced the following tweet.
 <img src="https://latex.codecogs.com/gif.latex?\overrightarrow{\mathrm{OA}}=\begin{bmatrix}&space;-a\sin\theta&space;\\&space;a\cos\theta&space;\end{bmatrix}\&space;,\&space;\&space;\overrightarrow{\mathrm{OC}}=\begin{bmatrix}&space;0&space;\\&space;-2a&space;\end{bmatrix}" title="\overrightarrow{\mathrm{O_1 A}}=\begin{bmatrix}&space;-a\sin\theta&space;\\&space;a\cos\theta&space;\end{bmatrix}\&space;,\&space;\&space;\overrightarrow{\mathrm{OC}}=\begin{bmatrix}&space;0&space;\\&space;-2a&space;\end{bmatrix}" />
 
 ## Length <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;l" title="\LARGE l" /> and angle <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\alpha" title="\LARGE \alpha" />
-<img src="https://latex.codecogs.com/gif.latex?l=a\sqrt{5&plus;4\cos\alpha}\&space;\&space;(\because \mathrm{Law\ of \ cosines})" title="l=a\sqrt{5+4\cos\alpha}" /> , 
+<img src="https://latex.codecogs.com/gif.latex?l=a\sqrt{5&plus;4\cos\alpha}\&space;\&space;(\because&space;\mathrm{Law\&space;of&space;\&space;cosines})" title="l=a\sqrt{5+4\cos\alpha}\ \ (\because \mathrm{Law\ of \ cosines})" /> ,
 
 <img src="https://latex.codecogs.com/gif.latex?\cos\alpha&space;=&space;\frac{l^2&plus;3a^2}{4al}\&space;,&space;\&space;\sin\alpha&space;=&space;\begin{cases}&space;\&space;\&space;\sqrt{1-\cos\alpha}&space;&&space;(0\leq\alpha\leq\pi)\\&space;-\sqrt{1-\cos\alpha}&space;&&space;(\pi\leq\alpha<2\pi)&space;\end{cases}" title="\cos\alpha = \frac{l^2+3a^2}{4al}\ , \ \sin\alpha = \begin{cases} \ \ \sqrt{1-\cos\alpha} & (0\leq\alpha\leq\pi)\\ -\sqrt{1-\cos\alpha} & (\pi\leq\alpha<2\pi) \end{cases}" />
 
