@@ -151,7 +151,7 @@ do for [n=0:LOOP-1:1]{
 
         if(qtMode == 1) {    
             if(i==0) {pause 2}
-            pause 0.001     # Adjust speed
+            pause 0.001     # Adjust the drawing speed
         } else {
             set out # terminal pngcairo
         }
