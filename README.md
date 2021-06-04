@@ -2,13 +2,13 @@
 "water-drop-linkage" is a simulator of a linkage mechanism  with gnuplot.
 To create this simulator, I referenced the following tweet.
 
-**<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/wW6MiVxrWs">pic.twitter.com/wW6MiVxrWs</a></p>&mdash; 上木 敬士郎 Keishiro Ueki (@ChocoLinkage) <a href="https://twitter.com/ChocoLinkage/status/1399198044122271746?ref_src=twsrc%5Etfw">May 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>**
+**<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/wW6MiVxrWs">pic.twitter.com/wW6MiVxrWs</a></p>&mdash; 上木 敬士郎 Keishiro Ueki (@ChocoLinkage) <a href="https://twitter.com/ChocoLinkage/status/1399198044122271746?ref_src=twsrc%5Etfw">May 31, 2021</a></blockquote>**
 
 # Demo
-![demo_2x.gif](demo_2x.gif)
+<img src="demo_2x.gif" width="450" alt="demo_2x.gif" title="demo_2x.gif">
 
 # Modeling
-<img src="modeling.png" width="600">
+<img src="modeling.png" width="450" alt="modeling.png" title="modeling.png">
 
 ## Coordinate of <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\mathrm{A}" title="\LARGE \mathrm{A}" /> and <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\mathrm{C}" title="\LARGE \mathrm{C}" />
 <img src="https://latex.codecogs.com/gif.latex?\overrightarrow{\mathrm{OA}}=\begin{bmatrix}&space;-a\sin\theta&space;\\&space;a\cos\theta&space;\end{bmatrix}\&space;,\&space;\&space;\overrightarrow{\mathrm{OC}}=\begin{bmatrix}&space;0&space;\\&space;-2a&space;\end{bmatrix}" title="\overrightarrow{\mathrm{O_1 A}}=\begin{bmatrix}&space;-a\sin\theta&space;\\&space;a\cos\theta&space;\end{bmatrix}\&space;,\&space;\&space;\overrightarrow{\mathrm{OC}}=\begin{bmatrix}&space;0&space;\\&space;-2a&space;\end{bmatrix}" />
@@ -16,7 +16,7 @@ To create this simulator, I referenced the following tweet.
 ## Length <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;l" title="\LARGE l" /> and angle <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\alpha" title="\LARGE \alpha" />
 <img src="https://latex.codecogs.com/gif.latex?l=a\sqrt{5&plus;4\cos\alpha}\&space;\&space;(\because&space;\mathrm{Law\&space;of&space;\&space;cosines})" title="l=a\sqrt{5+4\cos\alpha}\ \ (\because \mathrm{Law\ of \ cosines})" /> ,
 
-<img src="https://latex.codecogs.com/gif.latex?\cos\alpha&space;=&space;\frac{l^2&plus;3a^2}{4al}\&space;,&space;\&space;\sin\alpha&space;=&space;\begin{cases}&space;\&space;\&space;\sqrt{1-\cos\alpha}&space;&&space;(0\leq\alpha\leq\pi)\\&space;-\sqrt{1-\cos\alpha}&space;&&space;(\pi\leq\alpha<2\pi)&space;\end{cases}" title="\cos\alpha = \frac{l^2+3a^2}{4al}\ , \ \sin\alpha = \begin{cases} \ \ \sqrt{1-\cos\alpha} & (0\leq\alpha\leq\pi)\\ -\sqrt{1-\cos\alpha} & (\pi\leq\alpha<2\pi) \end{cases}" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=\cos\alpha&space;=&space;\frac{l^2&plus;3a^2}{4al}\&space;,&space;\&space;\sin\alpha&space;=&space;\begin{cases}&space;\&space;\&space;\sqrt{1-\cos\alpha}&space;&&space;\left(0^{\circ}\leq&space;\alpha\leq&space;180^{\circ}&space;\right&space;)\\&space;-\sqrt{1-\cos\alpha}&space;&&space;\left(180^{\circ}<\alpha<&space;360^{\circ}&space;\right&space;)&space;\end{cases}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\cos\alpha&space;=&space;\frac{l^2&plus;3a^2}{4al}\&space;,&space;\&space;\sin\alpha&space;=&space;\begin{cases}&space;\&space;\&space;\sqrt{1-\cos\alpha}&space;&&space;\left(0^{\circ}\leq&space;\alpha\leq&space;180^{\circ}&space;\right&space;)\\&space;-\sqrt{1-\cos\alpha}&space;&&space;\left(180^{\circ}<\alpha<&space;360^{\circ}&space;\right&space;)&space;\end{cases}" title="\cos\alpha = \frac{l^2+3a^2}{4al}\ , \ \sin\alpha = \begin{cases} \ \ \sqrt{1-\cos\alpha} & \left(0^{\circ}\leq \alpha\leq 180^{\circ} \right )\\ -\sqrt{1-\cos\alpha} & \left(180^{\circ}<\alpha< 360^{\circ} \right ) \end{cases}" /></a>
 
 ## Coordinate of <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\mathrm{B}" title="\LARGE \mathrm{B}" /> and <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\mathrm{P}" title="\LARGE \mathrm{P}" />
 
@@ -27,7 +27,10 @@ To create this simulator, I referenced the following tweet.
 # Features
 You enable to switch terminal type `qt` or `pngcairo` by using **`qtMode`**.
 - If you select `qt` terminal (`qtMode==1`), gnuplot opens qt window and you can run this simulator.
-
+The drawing speed of the qt window can be adjusted with the `pause` command.
+```
+pause 0.001     # Adjust the drawing speed
+```
 - On the other hand, in `pngcairo` terminal (`qtMode!=1`), you can get a lot of PNG images of the simulation.
 By using the outputted images, you can make a video or an animated GIF.
 
