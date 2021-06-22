@@ -79,7 +79,7 @@ print sprintf('Start outputting %s ...', dataJointsPos)
 set print dataJointsPos
 
 # Write items and parameters in outputfile
-print '#deg / Ox Oy / Cx Cy / Ax Ay / Bx By / Px Py'
+print '# deg / Ox Oy / Cx Cy / Ax Ay / Bx By / Px Py'
 print sprintf('# DEG_DIV=%d', DEG_DIV)
  
 # Calculate and output position of joints in outputfile
@@ -105,7 +105,7 @@ print sprintf('Start outputting %s ...', dataTrajectory)
 set print dataTrajectory
 
 print sprintf("# %s", dataTrajectory)
-print '# t / Px / Py'
+print '# deg / Px / Py'
 set yrange [*:*]    # This command enables to remove restrictions on the range of the stats command.
 do for [i=0:360*DEG_DIV:1]{
     stats dataJointsPos using 1 every ::0:i:0:i nooutput
