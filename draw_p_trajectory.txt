@@ -1,5 +1,5 @@
 # draw_p_trajectory.txt
-# t / Px / Py
+# deg / Px / Py
 0.0 0.0 4.0
 1.0 0.0 4.0
 2.0 0.0 3.999
