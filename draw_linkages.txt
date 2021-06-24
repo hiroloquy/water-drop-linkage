@@ -1,4 +1,4 @@
-#deg / Ox Oy / Cx Cy / Ax Ay / Bx By / Px Py
+# deg / Ox Oy / Cx Cy / Ax Ay / Bx By / Px Py
 # DEG_DIV=1
 0.000
 0.0 0.0
