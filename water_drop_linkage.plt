@@ -124,8 +124,9 @@ print sprintf('Finish!')
 if(qtMode == 1) {
     print "Start simulation"
 } else {
-    print sprintf('Start outputting %d images ...', 2+360*DEG_DIV*LOOP)
+    print sprintf('Start outputting %d images ...', LOOP*(1+360*DEG_DIV))
 }
+
 plotRange = (4.0+2.0)*a
 end(loop, i) =  (loop>0) ? 360*DEG_DIV : i
 
