@@ -151,7 +151,9 @@ do for [n=0:LOOP-1:1]{
             # dataTrajectory using 2:3 every ::fadeTrajectory(i)::i with line lw lwTrajectory lc 6
 
         if(qtMode == 1) {    
-            if(i==0) {pause 2}
+            if((n==0 && i==0) || n==LOOP-1 && i==360*DEG_DIV) {
+                pause 2     # Wait a few seconds
+            }
             pause 0.001     # Adjust the drawing speed
         } else {
             set out # terminal pngcairo
