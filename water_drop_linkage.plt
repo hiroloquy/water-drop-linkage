@@ -25,7 +25,7 @@ DEG_DIV = 1.0     # Resolution of degree, increase by 1/DEG_DIV
 roundNum = 2
 
 # Select terminal type
-qtMode = 0     # ==1: qt (simulator) / !=1: png (output images for making video)
+qtMode = 1     # ==1: qt (simulator) / !=1: png (output images for making video)
 print sprintf("[MODE] %s", (qtMode==1 ? 'Simulate in Qt window' :'Output PNG images'))
 
 #=================== Function ====================
