@@ -75,7 +75,7 @@ https://hiroloquy.com/2021/07/05/water-drop-linkage-explanation/
 
 ### YouTube
 http://www.youtube.com/watch?v=rSbgDpycorc  
-[![Water Drop Linkage [gnuplot]](http://img.youtube.com/vi/rSbgDpycorc/0.jpg)](http://www.youtube.com/watch?v=rSbgDpycorc "Water Drop Linkage [gnuplot]")
+[![Water Drop Linkage: Modeling and Simulation Using Gnuplot](http://img.youtube.com/vi/rSbgDpycorc/0.jpg)](http://www.youtube.com/watch?v=rSbgDpycorc "Water Drop Linkage: Modeling and Simulation Using Gnuplot")
 
 ## License
 "water-drop-linkage" is under [Hiroloquy](https://hiroloquy.com/).
