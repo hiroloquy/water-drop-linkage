@@ -67,8 +67,16 @@ ffmpeg -i demo.mp4 -filter_complex "[0:v] fps=30,split [a][b];[a] palettegen [p]
 ```
 ## Author
 * Hiro Shigeyoshi
-* Twitter: https://twitter.com/Sm_pgmf
- 
+* Twitter: https://twitter.com/hiroloquy
+
+### Blog 
+This article is written in detail and in Japanese. You can translate it in your language.  
+https://hiroloquy.com/2021/07/05/water-drop-linkage-explanation/
+
+### YouTube
+http://www.youtube.com/watch?v=rSbgDpycorc  
+[![Water Drop Linkage [gnuplot]](http://img.youtube.com/vi/rSbgDpycorc/0.jpg)](http://www.youtube.com/watch?v=rSbgDpycorc "Water Drop Linkage [gnuplot]")
+
 ## License
 "water-drop-linkage" is under [Hiroloquy](https://hiroloquy.com/).
  
