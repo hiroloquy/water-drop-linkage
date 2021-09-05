@@ -78,5 +78,5 @@ http://www.youtube.com/watch?v=rSbgDpycorc
 [![Water Drop Linkage: Modeling and Simulation Using Gnuplot](http://img.youtube.com/vi/rSbgDpycorc/0.jpg)](http://www.youtube.com/watch?v=rSbgDpycorc "Water Drop Linkage: Modeling and Simulation Using Gnuplot")
 
 ## License
-"water-drop-linkage" is under [Hiroloquy](https://hiroloquy.com/).
+"water-drop-linkage" is under [MIT license](https://github.com/hiroloquy/water-drop-linkage/blob/master/LICENSE).
  
