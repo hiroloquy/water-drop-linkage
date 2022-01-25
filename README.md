@@ -6,8 +6,8 @@ To create this simulator, I referenced the following tweet.
 
 The details of the script and comparison of the outputted samples are documented in my blog.
 My blog is written in Japanese, but you can translate it in your language by GTranslate.  
-- [Japanese (original)](https://hiroloquy.com/2021/07/05/water-drop-linkage-explanation/)
-- [English (auto translated)](https://hiroloquy-com.translate.goog/2021/07/05/water-drop-linkage-explanation/?_x_tr_sl=ja&_x_tr_tl=hi&_x_tr_hl=ja&_x_tr_pto=wapp)
+- [Japanese](https://hiroloquy.com/2021/07/05/water-drop-linkage-explanation/)
+- [English (auto translated)](https://hiroloquy-com.translate.goog/2021/07/05/water-drop-linkage-explanation/?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja&_x_tr_pto=wapp)
 
 ## Demo
 <img src="demo.gif" width="450" alt="demo.gif" title="demo.gif">
