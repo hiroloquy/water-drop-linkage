@@ -4,6 +4,11 @@ To create this simulator, I referenced the following tweet.
 
 **<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/wW6MiVxrWs">pic.twitter.com/wW6MiVxrWs</a></p>&mdash; 上木 敬士郎 Keishiro Ueki (@ChocoLinkage) <a href="https://twitter.com/ChocoLinkage/status/1399198044122271746?ref_src=twsrc%5Etfw">May 31, 2021</a></blockquote>**
 
+The details of the script and comparison of the outputted samples are documented in my blog.
+My blog is written in Japanese, but you can translate it in your language by GTranslate.  
+- [Japanese (original)](https://hiroloquy.com/2021/07/05/water-drop-linkage-explanation/)
+- [English (auto translated)](https://hiroloquy-com.translate.goog/2021/07/05/water-drop-linkage-explanation/?_x_tr_sl=ja&_x_tr_tl=hi&_x_tr_hl=ja&_x_tr_pto=wapp)
+
 ## Demo
 <img src="demo.gif" width="450" alt="demo.gif" title="demo.gif">
 
@@ -68,10 +73,6 @@ ffmpeg -i demo.mp4 -filter_complex "[0:v] fps=30,split [a][b];[a] palettegen [p]
 ## Author
 * Hiro Shigeyoshi
 * Twitter: https://twitter.com/hiroloquy
-
-### Blog 
-This article is written in detail and in Japanese. You can translate it in your language.  
-https://hiroloquy.com/2021/07/05/water-drop-linkage-explanation/
 
 ### YouTube
 http://www.youtube.com/watch?v=rSbgDpycorc  
