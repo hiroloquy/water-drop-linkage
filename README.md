@@ -4,30 +4,30 @@ To create this simulator, I referenced the following tweet.
 
 **<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/wW6MiVxrWs">pic.twitter.com/wW6MiVxrWs</a></p>&mdash; 上木 敬士郎 Keishiro Ueki (@ChocoLinkage) <a href="https://twitter.com/ChocoLinkage/status/1399198044122271746?ref_src=twsrc%5Etfw">May 31, 2021</a></blockquote>**
 
+## Documents
 The details of the script and comparison of the outputted samples are documented in my blog.
 My blog is written in Japanese, but you can translate it in your language by GTranslate.  
 - [Japanese](https://hiroloquy.com/2021/07/05/water-drop-linkage-explanation/)
 - [English (auto translated)](https://hiroloquy-com.translate.goog/2021/07/05/water-drop-linkage-explanation/?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja&_x_tr_pto=wapp)
 
 ## Demo
-<img src="demo.gif" width="450" alt="demo.gif" title="demo.gif">
+<img src="demo.gif" width="400" alt="demo.gif" title="demo.gif">
 
 ## Modeling
-<img src="modeling.png" width="450" alt="modeling.png" title="modeling.png">
+<img src="modeling.png" width="400" alt="modeling.png" title="modeling.png">
 
-### Coordinate of <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\mathrm{A}" title="\LARGE \mathrm{A}" /> and <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\mathrm{C}" title="\LARGE \mathrm{C}" />
-<img src="https://latex.codecogs.com/gif.latex?\overrightarrow{\mathrm{OA}}=\begin{bmatrix}&space;-a\sin\theta&space;\\&space;a\cos\theta&space;\end{bmatrix}\&space;,\&space;\&space;\overrightarrow{\mathrm{OC}}=\begin{bmatrix}&space;0&space;\\&space;-2a&space;\end{bmatrix}" title="\overrightarrow{\mathrm{O_1 A}}=\begin{bmatrix}&space;-a\sin\theta&space;\\&space;a\cos\theta&space;\end{bmatrix}\&space;,\&space;\&space;\overrightarrow{\mathrm{OC}}=\begin{bmatrix}&space;0&space;\\&space;-2a&space;\end{bmatrix}" />
+### Coordinate of <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Cmathrm%7BA%7D" alt="\mathrm{A}"> and <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Cmathrm%7BC%7D" alt="\mathrm{C}">
+<img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Coverrightarrow%7B%5Cmathrm%7BOA%7D%7D%3D%5Cbegin%7Bbmatrix%7D-a%5Csin%5Ctheta%5C%5C+a%5Ccos%5Ctheta%5Cend%7Bbmatrix%7D%5C+%2C+%5C+%5Coverrightarrow%7B%5Cmathrm%7BOC%7D%7D%3D%5Cbegin%7Bbmatrix%7D+0+%5C%5C+-2a++%0A%5Cend%7Bbmatrix%7D" alt="\overrightarrow{\mathrm{OA}}=\begin{bmatrix}-a\sin\theta\\ a\cos\theta\end{bmatrix}\ , \ \overrightarrow{\mathrm{OC}}=\begin{bmatrix} 0 \\ -2a  \end{bmatrix}">
 
-### Length <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;l" title="\LARGE l" /> and angle <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\alpha" title="\LARGE \alpha" />
-<img src="https://latex.codecogs.com/gif.latex?l=a\sqrt{5&plus;4\cos\theta}\&space;\&space;(\because&space;\mathrm{Law\&space;of&space;\&space;cosines})" title="l=a\sqrt{5+4\cos\theta}\ \ (\because \mathrm{Law\ of \ cosines})" /> ,
+### Length <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+l" alt="l"> and angle <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Calpha" alt="\alpha">
+<img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+l%3Da%5Csqrt%7B5%2B4%5Ccos%5Ctheta%7D%5C+%5C+%28%5Cbecause+%5Cmathrm%7BLaw%5C+of+%5C+cosines%7D%29" alt="l=a\sqrt{5+4\cos\theta}\ \ (\because \mathrm{Law\ of \ cosines})"> ,
 
-<img src="https://latex.codecogs.com/gif.latex?\cos\alpha&space;=&space;\frac{l^2&plus;3a^2}{4al}\&space;,&space;\&space;\sin\alpha&space;=&space;\begin{cases}&space;\&space;\&space;\sqrt{1-\cos\alpha}&space;&&space;\left(0^{\circ}\leq&space;\theta\leq&space;180^{\circ}&space;\right&space;)\\&space;-\sqrt{1-\cos\alpha}&space;&&space;\left(180^{\circ}<\theta<&space;360^{\circ}&space;\right&space;)&space;\end{cases}" title="\cos\alpha = \frac{l^2+3a^2}{4al}\ , \ \sin\alpha = \begin{cases} \ \ \sqrt{1-\cos\alpha} & \left(0^{\circ}\leq \theta\leq 180^{\circ} \right )\\ -\sqrt{1-\cos\alpha} & \left(180^{\circ}<\theta< 360^{\circ} \right ) \end{cases}" />
+<img src="https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Ccos%5Calpha+%3D+%5Cfrac%7Bl%5E2%2B3a%5E2%7D%7B4al%7D%5C+%2C+%5C+%5Csin%5Calpha+%3D+%5Cbegin%7Bcases%7D+%5C+%5C+%5Csqrt%7B1-%5Ccos%5Calpha%7D+%26+%5Cleft%280%5E%7B%5Ccirc%7D%5Cleq+%5Ctheta%5Cleq+180%5E%7B%5Ccirc%7D+%5Cright+%29%5C%5C+-%5Csqrt%7B1-%5Ccos%5Calpha%7D+%26+%5Cleft%28180%5E%7B%5Ccirc%7D%3C%5Ctheta%3C+360%5E%7B%5Ccirc%7D+%5Cright+%29+%5Cend%7Bcases%7D" alt="\cos\alpha = \frac{l^2+3a^2}{4al}\ , \ \sin\alpha = \begin{cases} \ \ \sqrt{1-\cos\alpha} & \left(0^{\circ}\leq \theta\leq 180^{\circ} \right )\\ -\sqrt{1-\cos\alpha} & \left(180^{\circ}<\theta< 360^{\circ} \right ) \end{cases}">
 
-### Coordinate of <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\mathrm{B}" title="\LARGE \mathrm{B}" /> and <img src="https://latex.codecogs.com/gif.latex?\inline&space;\LARGE&space;\mathrm{P}" title="\LARGE \mathrm{P}" />
+### Coordinate of <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Cmathrm%7BB%7D" alt="\mathrm{B}"> and <img src="https://render.githubusercontent.com/render/math?math=%5CLarge+%5Cdisplaystyle+%5Cmathrm%7BP%7D" alt="\mathrm{P}">
 
-<img src="https://latex.codecogs.com/gif.latex?\begin{align*}&space;\overrightarrow{\mathrm{OB}}&=\overrightarrow{\mathrm{OC}}&plus;\overrightarrow{\mathrm{CB}}\\&space;&=&space;\begin{bmatrix}&space;0\\-2a&space;\end{bmatrix}&space;&plus;&space;\begin{bmatrix}&space;-2a\sin2\alpha\\-2a\cos&space;2\alpha&space;\end{bmatrix}=&space;\begin{bmatrix}&space;-4a\cos\alpha&space;\sin&space;\alpha&space;\\&space;-4a\cos^2\alpha&space;\end{bmatrix}&space;\end{align*}" title="\begin{align*} \overrightarrow{\mathrm{OB}}&=\overrightarrow{\mathrm{OC}}+\overrightarrow{\mathrm{CB}}\\ &= \begin{bmatrix} 0\\-2a \end{bmatrix} + \begin{bmatrix} -2a\sin2\alpha\\-2a\cos 2\alpha \end{bmatrix}= \begin{bmatrix} -4a\cos\alpha \sin \alpha \\ -4a\cos^2\alpha \end{bmatrix} \end{align*}" />
-
-<img src="https://latex.codecogs.com/gif.latex?\overrightarrow{\mathrm{OP}}=\overrightarrow{\mathrm{OA}}&plus;\overrightarrow{\mathrm{AP}}=\overrightarrow{\mathrm{OA}}&plus;3\overrightarrow{\mathrm{BA}}=4\overrightarrow{\mathrm{OA}}-3\overrightarrow{\mathrm{OB}}" title="\overrightarrow{\mathrm{OP}}=\overrightarrow{\mathrm{OA}}+\overrightarrow{\mathrm{AP}}=\overrightarrow{\mathrm{OA}}+3\overrightarrow{\mathrm{BA}}=4\overrightarrow{\mathrm{OA}}-3\overrightarrow{\mathrm{OB}}" />
+<img src=
+"https://render.githubusercontent.com/render/math?math=%5Clarge+%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D+%5Coverrightarrow%7B%5Cmathrm%7BOB%7D%7D%26%3D%5Coverrightarrow%7B%5Cmathrm%7BOC%7D%7D%2B%5Coverrightarrow%7B%5Cmathrm%7BCB%7D%7D%5C%5C%0A%26%3D+%5Cbegin%7Bbmatrix%7D+0%5C%5C-2a+%5Cend%7Bbmatrix%7D+%2B+%5Cbegin%7Bbmatrix%7D+-2a%5Csin2%5Calpha+%5C%5C+%0A-2a%5Ccos+2%5Calpha+%5Cend%7Bbmatrix%7D%3D+%5Cbegin%7Bbmatrix%7D+-4a%5Ccos%5Calpha+%5Csin+%5Calpha+%5C%5C%0A-4a%5Ccos%5E2%5Calpha+%5Cend%7Bbmatrix%7D%5C%5C%0A%5Coverrightarrow%7B%5Cmathrm%7BOP%7D%7D%26%3D%5Coverrightarrow%7B%5Cmathrm%7BOA%7D%7D%2B%5Coverrightarrow%7B%5Cmathrm%7BAP%7D%7D%3D%5Coverrightarrow%7B%5Cmathrm%7BOA%7D%7D%2B3%5Coverrightarrow%7B%5Cmathrm%7BBA%7D%7D%3D4%5Coverrightarrow%7B%5Cmathrm%7BOA%7D%7D-3%5Coverrightarrow%7B%5Cmathrm%7BOB%7D%7D%0A%5Cend%7Balign%2A%7D%0A" alt="\begin{align*} \overrightarrow{\mathrm{OB}}&=\overrightarrow{\mathrm{OC}}+\overrightarrow{\mathrm{CB}}\\&= \begin{bmatrix} 0\\-2a \end{bmatrix} + \begin{bmatrix} -2a\sin2\alpha \\ -2a\cos 2\alpha \end{bmatrix}= \begin{bmatrix} -4a\cos\alpha \sin \alpha \\-4a\cos^2\alpha\end{bmatrix}\\\overrightarrow{\mathrm{OP}}&=\overrightarrow{\mathrm{OA}}+\overrightarrow{\mathrm{AP}}=\overrightarrow{\mathrm{OA}}+3\overrightarrow{\mathrm{BA}}=4\overrightarrow{\mathrm{OA}}-3\overrightarrow{\mathrm{OB}}\end{align*}">
 
 ## Features
 You enable to switch terminal type `qt` or `pngcairo` by using **`qtMode`**.
