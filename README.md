@@ -16,27 +16,51 @@ My blog is written in Japanese, but you can translate it in your language by GTr
 ## Modeling
 <img src="modeling.png" width="400" alt="modeling.png" title="modeling.png">
 
-### Coordinate of $\mathrm{A}$ and $\mathrm{C}$
+**Coordinate of $\mathrm{A}$ and $\mathrm{C}$**
+
 $$
-\overrightarrow{\mathrm{OA}}=\begin{bmatrix}-a\sin\theta\\ a\cos\theta\end{bmatrix}\ , \ \overrightarrow{\mathrm{OC}}=\begin{bmatrix} 0 \\ -2a  \end{bmatrix}
+\overrightarrow{\mathrm{OA}}=\begin{bmatrix}
+	-a\sin\theta\\
+	a\cos\theta
+\end{bmatrix}\ , \ \overrightarrow{\mathrm{OC}}=
+\begin{bmatrix}
+	0 \\
+	-2a
+\end{bmatrix}
 $$
 
-### Length $l$ and angle $\alpha$
+**Length $l$ and angle $\alpha$**
+
 $$
 l=a\sqrt{5+4\cos\theta}\ \ (\because \mathrm{Law\ of \ cosines}), 
 $$
+
 $$
-\cos\alpha = \frac{l^2+3a^2}{4al}\ , \ \sin\alpha = \begin{cases} \ \ \sqrt{1-\cos\alpha} & \left(0^{\circ}\leq \theta\leq 180^{\circ} \right )\\ -\sqrt{1-\cos\alpha} & \left(180^{\circ}<\theta< 360^{\circ} \right ) \end{cases}
+\cos\alpha = \frac{l^2+3a^2}{4al}\ , \ 
+\sin\alpha = 
+\begin{cases}
+		\sqrt{1-\cos\alpha} & \left(0^{\circ}\leq \theta\leq 180^{\circ} \right )\\ 
+		-\sqrt{1-\cos\alpha} & \left(180^{\circ}<\theta< 360^{\circ} \right )
+\end{cases}
 $$
 
-### Coordinate of $\mathrm{B}$ and $\mathrm{P}$
+**Coordinate of $\mathrm{B}$ and $\mathrm{P}$**
+
 $$
 \begin{align*}
 \overrightarrow{\mathrm{OB}}
 &= \overrightarrow{\mathrm{OC}}+\overrightarrow{\mathrm{CB}}\\
-&= \begin{bmatrix} 0\\-2a \end{bmatrix} + \begin{bmatrix} -2a\sin2\alpha \\
-
--2a\cos 2\alpha \end{bmatrix}= \begin{bmatrix} -4a\cos\alpha \sin \alpha\\-4a\cos^2\alpha\end{bmatrix}\\
+&= \begin{bmatrix}
+	0\\
+	-2a
+\end{bmatrix} + \begin{bmatrix}
+	-2a\sin2\alpha\\
+	-2a\cos 2\alpha
+\end{bmatrix}
+= \begin{bmatrix}
+	-4a\cos\alpha \sin \alpha\\
+	-4a\cos^2\alpha
+\end{bmatrix}\\
 \overrightarrow{\mathrm{OP}}
 &=\overrightarrow{\mathrm{OA}}+\overrightarrow{\mathrm{AP}}
 =\overrightarrow{\mathrm{OA}}+3\overrightarrow{\mathrm{BA}}
